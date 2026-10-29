@@ -1,0 +1,393 @@
+{
+  "versao": "1.0",
+  "observacao": "Textos aprovados em 29/10/2026. Os valores e a modalidade online devem ser preservados.",
+  "fluxos": {
+    "menu_principal": {
+      "id": "01",
+      "texto": "Olá! 💗 Seja bem-vinda!\n\nSou a assistente virtual da Terapeuta Luana Soares e estou aqui para ajudar você a encontrar o atendimento que faz mais sentido para o seu momento.\n\n🫶 Você pode conhecer as opções de atendimento individual ou participar do grupo de mulheres Olhando para Mim, um espaço de acolhimento, troca e autocuidado.\n\nComo posso ajudar você hoje? 🌷",
+      "botoes": [
+        {
+          "texto": "💜 Atendimento individual",
+          "destino": "A1"
+        },
+        {
+          "texto": "🫶 Grupo: Olhando para Mim",
+          "destino": "B"
+        }
+      ]
+    },
+    "A1": {
+      "texto": "💜 Atendimento individual com a terapeuta Luana Soares\n\nÀs vezes, precisamos de um espaço só nosso para falar sobre o que sentimos, compreender o que estamos vivendo e olhar com mais atenção para nossas necessidades. 🌷\n\nO atendimento individual oferece um espaço de escuta e acolhimento, respeitando sua história e seu momento.\n\n💻 Os atendimentos são realizados exclusivamente online.\n\nComo você gostaria de continuar?",
+      "botoes": [
+        {
+          "texto": "💗 Quero saber mais",
+          "destino": "A2"
+        },
+        {
+          "texto": "Menu",
+          "destino": "01"
+        }
+      ]
+    },
+    "A2": {
+      "texto": "💜 Como você gostaria de realizar seu atendimento? 🌷\n\nEscolha uma das opções para conhecer os detalhes e valores.",
+      "botoes": [
+        {
+          "texto": "🌷 Sessão individual",
+          "destino": "A3.1"
+        },
+        {
+          "texto": "💗 Pacote mensal",
+          "destino": "A3.2"
+        },
+        {
+          "texto": "Menu",
+          "destino": "01"
+        }
+      ]
+    },
+    "A3.1": {
+      "texto": "💜 Sessão individual com a terapeuta Luana Soares\n\n🌷 Atendimento online com duração de 50 minutos.\n\n💠 Pix: R$ 700,00\n💳 Cartão de crédito: R$ 727,93\n\nComo você gostaria de continuar?",
+      "botoes": [
+        {
+          "texto": "💗 Quero continuar",
+          "destino": "A4"
+        },
+        {
+          "texto": "⬅️ Voltar",
+          "destino": "A2"
+        },
+        {
+          "texto": "Menu",
+          "destino": "01"
+        }
+      ]
+    },
+    "A3.2": {
+      "texto": "💜 Pacote mensal de atendimento individual\n\n🌷 Um acompanhamento mensal com a terapeuta Luana Soares, realizado online.\n\n💠 Pix: R$ 2.400,00\n💳 Cartão de crédito: R$ 2.495,76\n\nComo você gostaria de continuar?",
+      "botoes": [
+        {
+          "texto": "💗 Quero continuar",
+          "destino": "A4"
+        },
+        {
+          "texto": "⬅️ Voltar",
+          "destino": "A2"
+        },
+        {
+          "texto": "Menu",
+          "destino": "01"
+        }
+      ]
+    },
+    "A4": {
+      "texto": "💗 Vamos realizar sua inscrição!\n\nQue bom que você escolheu dar esse passo em direção ao seu autocuidado! 🌷\n\nPara continuar, precisamos seguir alguns passos simples:\n\n📝 1. Preenchimento dos dados\n\nVou solicitar as seguintes informações para realizar seu cadastro:\n- Nome completo;\n- Data de nascimento;\n- Número de WhatsApp;\n- Modalidade escolhida;\n- Forma de pagamento: Pix ou cartão de crédito.\n\n✅ 2. Confirmação das informações\n\nAo final, você poderá confirmar os dados enviados.\n\n🫶 3. Contato com a terapeuta\n\nApós a confirmação, suas informações serão encaminhadas à terapeuta Luana Soares. Ela entrará em contato com você por videochamada para realizar o primeiro contato e combinar o pagamento.\n\n⚠️ Importante: o agendamento será confirmado após a combinação dos detalhes com a terapeuta.",
+      "botoes": [
+        {
+          "texto": "💗 Vamos começar",
+          "destino": "A5"
+        },
+        {
+          "texto": "Menu",
+          "destino": "01"
+        }
+      ]
+    },
+    "A5": {
+      "texto": "🌷 Para começarmos sua inscrição no atendimento individual, me diga, por favor:\n\nQual é o seu nome completo? 💗",
+      "botoes": [
+        {
+          "texto": "⬅️ Voltar",
+          "destino": "A4"
+        }
+      ]
+    },
+    "A6": {
+      "texto": "🌷 Agora, me informe sua data de nascimento, por favor. 💗\n\nDigite no formato DD/MM/AAAA, por exemplo: 19/09/1989.",
+      "botoes": [
+        {
+          "texto": "⬅️ Voltar",
+          "destino": "A5"
+        }
+      ]
+    },
+    "A7": {
+      "texto": "💗 Agora, informe seu número de WhatsApp com DDD, por favor. 📱\n\nExemplo: (21) 99999-9999\n\nEsse será o contato utilizado pela terapeuta Luana Soares para falar com você.",
+      "botoes": [
+        {
+          "texto": "⬅️ Voltar",
+          "destino": "A6"
+        }
+      ]
+    },
+    "A8": {
+      "texto": "💗 Confira os valores do seu atendimento! 🌷\n\n🌷 Sessão individual — 50 minutos\n💠 Pix: R$ 700,00\n💳 Cartão de crédito: R$ 727,93\n\n💗 Pacote mensal\n💠 Pix: R$ 2.400,00\n💳 Cartão de crédito: R$ 2.495,76\n\nQual forma de pagamento você prefere?",
+      "botoes": [
+        {
+          "texto": "💠 Pix",
+          "destino": "A9"
+        },
+        {
+          "texto": "💳 Cartão de crédito",
+          "destino": "A9"
+        },
+        {
+          "texto": "✏️ Corrigir informações",
+          "destino": "CORRIGIR_A"
+        },
+        {
+          "texto": "⬅️ Voltar ao passo anterior",
+          "destino": "A7"
+        }
+      ]
+    },
+    "A9": {
+      "texto": "💗 Confira seus dados antes de finalizar!\n\n👤 Nome completo: [nome informado]\n🎂 Data de nascimento: [data informada]\n📱 WhatsApp: [número informado]\n🌷 Atendimento escolhido: [sessão individual ou pacote mensal]\n💳 Forma de pagamento: [Pix ou cartão de crédito]\n💰 Valor: [valor correspondente]\n\nConfira com atenção. Se precisar, você poderá corrigir alguma informação antes de confirmar sua inscrição. 🫶",
+      "botoes": [
+        {
+          "texto": "✏️ Corrigir informações",
+          "destino": "CORRIGIR_A"
+        },
+        {
+          "texto": "⬅️ Voltar ao passo anterior",
+          "destino": "A8"
+        }
+      ]
+    },
+    "A10": {
+      "texto": "💗 Parabéns por dar esse passo em direção a você mesma! 🌷\n\nSuas informações foram confirmadas e serão encaminhadas à terapeuta Luana Soares, que entrará em contato com você por videochamada para realizar o primeiro contato e combinar o pagamento.\n\n🌸 Esse também será um momento para conhecer melhor o atendimento individual e tirar suas dúvidas.\n\n⚠️ Importante: o agendamento será confirmado após a combinação dos detalhes com a terapeuta.\n\nQue essa seja uma oportunidade de olhar para si com mais carinho! 💗",
+      "botoes": [
+        {
+          "texto": "✏️ Corrigir informações",
+          "destino": "CORRIGIR_A"
+        },
+        {
+          "texto": "Menu",
+          "destino": "01"
+        }
+      ]
+    },
+    "CORRIGIR_A": {
+      "texto": "✏️ Qual informação você deseja corrigir?\n\nSelecione o dado que precisa alterar. Após a correção, você retornará à tela de confirmação para conferir tudo novamente. 💗",
+      "botoes": [
+        {
+          "texto": "👤 Nome completo",
+          "destino": "A5"
+        },
+        {
+          "texto": "🎂 Data de nascimento",
+          "destino": "A6"
+        },
+        {
+          "texto": "📱 WhatsApp",
+          "destino": "A7"
+        },
+        {
+          "texto": "🌷 Atendimento escolhido",
+          "destino": "A2"
+        },
+        {
+          "texto": "💳 Forma de pagamento",
+          "destino": "A8"
+        },
+        {
+          "texto": "⬅️ Voltar ao resumo",
+          "destino": "A9"
+        }
+      ]
+    },
+    "B": {
+      "texto": "🫶 Em meio às responsabilidades e ao caos do dia a dia, quantas vezes você se deixa para depois, engole o que sente e segue em frente, mesmo quando tudo o que precisa é de um momento para si?\n\nO Olhando para Mim é um convite para você se reencontrar. 💗 Um espaço online de acolhimento, troca e reflexão entre mulheres, onde você pode se escutar, reconhecer suas necessidades e descobrir que não precisa enfrentar tudo sozinha.\n\n🌷 Você também merece cuidado, acolhimento e um lugar onde possa ser você, sem precisar dar conta de tudo.\n\nO grupo funciona por assinatura. Como você gostaria de continuar?",
+      "botoes": [
+        {
+          "texto": "Menu",
+          "destino": "01"
+        },
+        {
+          "texto": "🫶 Detalhes sobre o grupo",
+          "destino": "B1"
+        }
+      ]
+    },
+    "B1": {
+      "texto": "🫶 Olhando para Mim\n\n🌷 Como funcionam os encontros?\n📅 Encontros semanais\n⏰ Duração de 1h30 por encontro\n💻 Modalidade online\n\n🌿 Nossa metodologia inclui:\n- 📖 Contoterapia: reflexões a partir de histórias;\n- 🎵 Músicas;\n- ✍️ Atividades reflexivas;\n- 💗 Escuta e acolhimento;\n- 🫶 Trocas de experiências entre mulheres.\n\n💗 Como funciona a assinatura?\n\nVocê pode escolher entre quatro planos: trimestral (3 meses), semestral (6 meses), 9 meses e anual (12 meses), com condição especial.\n\n✨ Um espaço para se conhecer melhor, compartilhar experiências e descobrir novas formas de lidar com os desafios do dia a dia.\n\nQuer conhecer os planos e os valores? 🌷",
+      "botoes": [
+        {
+          "texto": "💗 Detalhes dos planos",
+          "destino": "B2"
+        },
+        {
+          "texto": "Menu",
+          "destino": "01"
+        }
+      ]
+    },
+    "B2": {
+      "texto": "🫶 Olhando para Mim 💗\n\nEscolha o plano que combina com o seu momento:\n\n🌷 3 meses — Pix: R$ 360,00 mensal; cartão: R$ 374,96 mensal.\n🌿 6 meses — Pix: R$ 342,00 mensal; cartão: R$ 356,21 mensal.\n🌸 9 meses — Pix: R$ 324,00 mensal; cartão: R$ 337,46 mensal.\n\n🌿 O autocuidado não deve ser algo que você procura apenas quando está esgotada. Você merece cultivar esse olhar para si de forma contínua, mesmo em meio às exigências do dia a dia.\n\nPor isso, pensei em algo especial para você que deseja fazer do autocuidado um compromisso permanente consigo mesma. 💗\n\n✨ E se você pudesse viver essa experiência por mais tempo, com uma condição diferente?",
+      "botoes": [
+        {
+          "texto": "✨ Condição especial",
+          "destino": "B3"
+        },
+        {
+          "texto": "Menu",
+          "destino": "01"
+        }
+      ]
+    },
+    "B3": {
+      "texto": "✨🌷 Uma condição especial para você!\n\nQue tal investir no seu autocuidado por 12 meses com uma condição ainda mais vantajosa? 💗\n\n🫶 Plano anual — Olhando para Mim\n💠 Pix: R$ 299,99 mensal.\n💳 Cartão de crédito: R$ 299,99 mensal.\n\n🌿 Um compromisso contínuo com você, suas necessidades e seu bem-estar.\n\nVamos dar esse passo juntas? 💗",
+      "botoes": [
+        {
+          "texto": "💗 Realizar inscrição",
+          "destino": "B4"
+        },
+        {
+          "texto": "Menu",
+          "destino": "01"
+        }
+      ]
+    },
+    "B4": {
+      "texto": "💗 Vamos realizar sua inscrição!\n\nQue bom que você escolheu dar esse passo em direção ao seu autocuidado! 🌷\n\nPara continuar, precisamos seguir alguns passos simples:\n\n📝 1. Preenchimento dos dados\nVou solicitar somente as informações a seguir para realizar seu cadastro: nome completo, data de nascimento, número de WhatsApp, plano escolhido e forma de pagamento: Pix ou cartão de crédito.\n\n✅ 2. Confirmação das informações\nAo final, você poderá confirmar os dados enviados.\n\n🫶 3. Contato com a terapeuta\nApós a confirmação, suas informações serão encaminhadas à terapeuta Luana Soares. Ela entrará em contato com você por videochamada para realizar o primeiro contato e realizar o pagamento.\n\n🌷 Será também uma oportunidade para você conhecer melhor a proposta do grupo Olhando para Mim e tirar suas dúvidas.\n\n⚠️ Importante: a garantia da sua vaga ocorrerá somente após a confirmação do pagamento.",
+      "botoes": [
+        {
+          "texto": "💗 Vamos começar",
+          "destino": "B5"
+        },
+        {
+          "texto": "Menu",
+          "destino": "01"
+        }
+      ]
+    },
+    "B5": {
+      "texto": "🌷 Para começarmos sua inscrição no grupo Olhando para Mim, me diga, por favor:\n\nQual é o seu nome completo? 💗",
+      "botoes": [
+        {
+          "texto": "⬅️ Voltar",
+          "destino": "B4"
+        }
+      ]
+    },
+    "B6": {
+      "texto": "🌷 Agora, me informe sua data de nascimento, por favor. 💗\n\nDigite no formato DD/MM/AAAA, por exemplo: 19/09/1989.",
+      "botoes": [
+        {
+          "texto": "⬅️ Voltar",
+          "destino": "B5"
+        }
+      ]
+    },
+    "B7": {
+      "texto": "💗 Agora, informe seu número de WhatsApp com DDD, por favor. 📱\n\nExemplo: (21) 99999-9999\n\nEsse será o contato utilizado pela terapeuta Luana Soares para falar com você.",
+      "botoes": [
+        {
+          "texto": "⬅️ Voltar",
+          "destino": "B6"
+        }
+      ]
+    },
+    "B8": {
+      "texto": "🌷 Escolha seu plano de assinatura 💗\n\n🌸 Trimestral — 3 meses: Pix R$ 360,00/mês; cartão R$ 374,96/mês.\n🌿 Semestral — 6 meses: Pix R$ 342,00/mês; cartão R$ 356,21/mês.\n🌷 9 meses: Pix R$ 324,00/mês; cartão R$ 337,46/mês.\n✨ Anual — 12 meses, condição especial: Pix R$ 299,99/mês; cartão R$ 299,99/mês.",
+      "botoes": [
+        {
+          "texto": "🌸 Trimestral",
+          "destino": "B9"
+        },
+        {
+          "texto": "🌿 Semestral",
+          "destino": "B9"
+        },
+        {
+          "texto": "🌷 9 meses",
+          "destino": "B9"
+        },
+        {
+          "texto": "✨ Anual",
+          "destino": "B9"
+        },
+        {
+          "texto": "⬅️ Voltar ao passo anterior",
+          "destino": "B7"
+        }
+      ]
+    },
+    "B9": {
+      "texto": "💗 Agora, vamos escolher a forma de pagamento!\n\nQual forma de pagamento você prefere para o plano escolhido? 🌷",
+      "botoes": [
+        {
+          "texto": "💠 Pix",
+          "destino": "B10"
+        },
+        {
+          "texto": "💳 Cartão de crédito",
+          "destino": "B10"
+        },
+        {
+          "texto": "✏️ Corrigir informações",
+          "destino": "CORRIGIR_B"
+        },
+        {
+          "texto": "⬅️ Voltar ao passo anterior",
+          "destino": "B8"
+        }
+      ]
+    },
+    "B10": {
+      "texto": "💗 Confira seus dados antes de finalizar!\n\n👤 Nome completo: [nome informado]\n🎂 Data de nascimento: [data informada]\n📱 WhatsApp: [número informado]\n🌷 Plano escolhido: [plano selecionado]\n💳 Forma de pagamento: [Pix ou cartão de crédito]\n\nConfira com atenção. Se precisar, você poderá corrigir alguma informação antes de confirmar sua inscrição. 🫶",
+      "botoes": [
+        {
+          "texto": "✅ Confirmar meus dados",
+          "destino": "B11"
+        },
+        {
+          "texto": "✏️ Corrigir informações",
+          "destino": "CORRIGIR_B"
+        },
+        {
+          "texto": "⬅️ Voltar ao passo anterior",
+          "destino": "B9"
+        }
+      ]
+    },
+    "B11": {
+      "texto": "💗 Parabéns por dar esse passo em direção a você mesma! 🌷\n\nEscolher dedicar tempo ao seu autocuidado é uma forma de reconhecer que você também merece atenção, acolhimento e cuidado. 🫶\n\nSuas informações foram confirmadas e serão encaminhadas à terapeuta Luana Soares, que entrará em contato com você por videochamada para realizar o primeiro contato e combinar o pagamento.\n\n🌸 Esse também será um momento para conhecer melhor a proposta do grupo Olhando para Mim e tirar suas dúvidas.\n\n⚠️ Importante: sua vaga será garantida somente após a confirmação do pagamento.\n\nQue essa seja uma oportunidade de olhar para si com mais carinho! 💗",
+      "botoes": [
+        {
+          "texto": "Menu",
+          "destino": "01"
+        }
+      ]
+    },
+    "CORRIGIR_B": {
+      "texto": "✏️ Qual informação você deseja corrigir?\n\nSelecione o dado que precisa alterar. Após a correção, você retornará à tela de confirmação para conferir tudo novamente. 💗",
+      "botoes": [
+        {
+          "texto": "👤 Nome completo",
+          "destino": "B5"
+        },
+        {
+          "texto": "🎂 Data de nascimento",
+          "destino": "B6"
+        },
+        {
+          "texto": "📱 WhatsApp",
+          "destino": "B7"
+        },
+        {
+          "texto": "🌷 Plano escolhido",
+          "destino": "B8"
+        },
+        {
+          "texto": "💳 Forma de pagamento",
+          "destino": "B9"
+        },
+        {
+          "texto": "⬅️ Voltar ao resumo",
+          "destino": "B10"
+        }
+      ]
+    }
+  }
+}
